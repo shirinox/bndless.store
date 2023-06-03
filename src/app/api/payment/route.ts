@@ -18,7 +18,7 @@ export async function POST(request: Request) {
 						name: `🚀 EUW | Unranked League Of Legends 30 Level | 35k+`,
 						description: '🚀 EUW | Unranked League Of Legends 30 Level | 35k+',
 					},
-					unit_amount_decimal: price,
+					unit_amount_decimal: price.toFixed(3),
 				},
 				quantity: 1,
 			},

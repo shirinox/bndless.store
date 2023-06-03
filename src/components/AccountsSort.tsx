@@ -13,7 +13,7 @@ const AccountsSort = ({ accounts, setAccounts }: Props) => {
 	const [BEAscending, setBEAscending] = useState(true);
 	const [priceAscending, setPriceAscending] = useState(true);
 	return (
-		<div className='flex gap-4'>
+		<div className='flex gap-4 items-center mt-6'>
 			<div
 				onClick={() => {
 					setAccounts(
@@ -23,7 +23,7 @@ const AccountsSort = ({ accounts, setAccounts }: Props) => {
 						})
 					);
 				}}
-				className='flex gap-1 items-center mt-6 cursor-pointer select-none w-fit'
+				className='flex gap-1 items-center cursor-pointer select-none w-fit'
 			>
 				<ArrowsUpDownIcon className='w-5 h-5' />
 				<p className='text-sm'>Sort BE</p>
@@ -43,10 +43,20 @@ const AccountsSort = ({ accounts, setAccounts }: Props) => {
 						})
 					);
 				}}
-				className='flex gap-1 items-center mt-6 cursor-pointer select-none w-fit'
+				className='flex gap-1 items-center cursor-pointer select-none w-fit'
 			>
 				<BanknotesIcon className='w-5 h-5' />
 				<p className='text-sm'>Sort Price</p>
+			</div>
+			<div className='items-center ml-auto'>
+				<button
+					id='button-anchor'
+					className='items-center border cursor-not-allowed border-gray-400 text-gray-400 rounded px-4 py-1.5'
+					disabled={true}
+				>
+					Buy Bulk
+				</button>
+				<p className='text-xs text-gray-500'>work in progress</p>
 			</div>
 		</div>
 	);

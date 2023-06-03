@@ -33,13 +33,15 @@ export async function POST(request: NextRequest) {
 
 		await xata.db.sold.create({
 			stripe_id: eventData.id,
-			acc: account_details.id,
+			acc: account_id,
 		});
 
+		await xata.db.accounts.delete(account_id);
+
 		resend.sendEmail({
-			from: 'onboarding@resend.dev',
+			from: 'orders@bndless.store',
 			to: eventData.customer_details.email,
-			subject: 'Your order has been completed!',
+			subject: 'Your order has been fulfilled!',
 			react: Email({ account: account_details }),
 		});
 
