@@ -1,0 +1,13 @@
+{
+  "id": "mig_chnjuatl8u6jbcfdn5bg",
+  "parentID": "mig_chnju5gdd6dsiudbobs0",
+  "checksum": "1:bba19d2d9d251bf352cad952bc6e3933750497684266a132e49d13816956593c",
+  "operations": [
+    {
+      "removeColumn": {
+        "column": "blue_essence",
+        "table": "accounts"
+      }
+    }
+  ]
+}

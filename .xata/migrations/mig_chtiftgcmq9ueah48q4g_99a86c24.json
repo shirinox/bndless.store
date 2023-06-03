@@ -1,0 +1,16 @@
+{
+  "id": "mig_chtiftgcmq9ueah48q4g",
+  "parentID": "mig_chtifs8cmq9ueah48q3g",
+  "checksum": "1:99a86c24ccedffd7818aa342924954f2c3f734857bf2554ec233fe24edde479d",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "blueEssence",
+          "type": "string"
+        },
+        "table": "sold"
+      }
+    }
+  ]
+}

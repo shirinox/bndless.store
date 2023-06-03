@@ -1,0 +1,17 @@
+{
+  "id": "mig_chnipool1i64ben17rvg",
+  "parentID": "mig_chnipkgl1i64ben17ru0",
+  "checksum": "1:01a18eeefe7498c165ef949518ccde3e6df542fc6bb9ccf7f223ad8edbb5f503",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "username",
+          "type": "string",
+          "unique": true
+        },
+        "table": "accounts"
+      }
+    }
+  ]
+}

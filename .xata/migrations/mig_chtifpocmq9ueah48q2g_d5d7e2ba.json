@@ -1,0 +1,16 @@
+{
+  "id": "mig_chtifpocmq9ueah48q2g",
+  "parentID": "mig_chtifm0cmq9ueah48q1g",
+  "checksum": "1:d5d7e2ba1f5d45a8cd39a4e7d9459b8901fbdd210e23f48c81db1401f086e487",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "region",
+          "type": "string"
+        },
+        "table": "sold"
+      }
+    }
+  ]
+}

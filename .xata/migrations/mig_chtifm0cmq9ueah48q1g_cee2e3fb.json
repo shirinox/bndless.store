@@ -1,0 +1,16 @@
+{
+  "id": "mig_chtifm0cmq9ueah48q1g",
+  "parentID": "mig_chtifl0cmq9ueah48q0g",
+  "checksum": "1:cee2e3fb2cc7f3670cd23f066c9ae1b47c7cad7d30ce080daf5b5b256b945b7d",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "password",
+          "type": "string"
+        },
+        "table": "sold"
+      }
+    }
+  ]
+}

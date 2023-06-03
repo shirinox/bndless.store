@@ -1,0 +1,12 @@
+{
+  "id": "mig_chqb14kff723653ef21g",
+  "parentID": "mig_chp652dol0c0r24s7fl0",
+  "checksum": "1:d99e7b152aa2e52629ff4d6fcba73e8dcc69ab1e0e1469c4796fc0c9375f2188",
+  "operations": [
+    {
+      "addTable": {
+        "table": "leagueAccountsSheet21"
+      }
+    }
+  ]
+}

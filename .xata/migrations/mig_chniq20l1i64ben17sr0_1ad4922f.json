@@ -1,0 +1,19 @@
+{
+  "id": "mig_chniq20l1i64ben17sr0",
+  "parentID": "mig_chnipsol1i64ben17s0g",
+  "checksum": "1:1ad4922f81889dba5dd0f53a7f7835624e4da82eb19eefed9a7783b9ddcee38e",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "skins",
+          "type": "vector",
+          "vector": {
+            "dimension": 10
+          }
+        },
+        "table": "accounts"
+      }
+    }
+  ]
+}

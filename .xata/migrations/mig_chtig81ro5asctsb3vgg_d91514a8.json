@@ -1,0 +1,16 @@
+{
+  "id": "mig_chtig81ro5asctsb3vgg",
+  "parentID": "mig_chtig5gcmq9ueah48q70",
+  "checksum": "1:d91514a84af6a8caa9790c5df8bae1de861ee8ab4604f3f07cb0e5f044ffc286",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "stripe_id",
+          "type": "string"
+        },
+        "table": "sold"
+      }
+    }
+  ]
+}

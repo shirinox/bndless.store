@@ -1,0 +1,16 @@
+{
+  "id": "mig_chqb14scd9qo4194v0m0",
+  "parentID": "mig_chqb14sff723653ef22g",
+  "checksum": "1:ffa16a247b713a8041d5637bd2f39fb8b2cff99d10b11cee22d1a1b29319d50a",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "password",
+          "type": "string"
+        },
+        "table": "leagueAccountsSheet21"
+      }
+    }
+  ]
+}

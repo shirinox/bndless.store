@@ -1,0 +1,16 @@
+{
+  "id": "mig_chqb154ff723653ef24g",
+  "parentID": "mig_chqb14sff723653ef23g",
+  "checksum": "1:1811888bcbc7707bb3d120eb922e918910001d2564ee60ce208f05df696fa5ea",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "skins",
+          "type": "string"
+        },
+        "table": "leagueAccountsSheet21"
+      }
+    }
+  ]
+}

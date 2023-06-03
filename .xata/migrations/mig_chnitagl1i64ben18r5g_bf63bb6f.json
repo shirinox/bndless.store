@@ -1,0 +1,13 @@
+{
+  "id": "mig_chnitagl1i64ben18r5g",
+  "parentID": "mig_chniq70l1i64ben17stg",
+  "checksum": "1:bf63bb6fa293e7b4b66014b833976732a4745cc8412e3f09c8d46ff13493ebea",
+  "operations": [
+    {
+      "removeColumn": {
+        "column": "skins",
+        "table": "accounts"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mig_chqb155ol0c0r24u9cig",
+  "parentID": "mig_chqb154ff723653ef24g",
+  "checksum": "1:2ee96e7c7b6ba9558557a9e1f9a59c7920896e11350dd2be2159e2c5cfcb05d6",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "blueEssence",
+          "type": "int"
+        },
+        "table": "leagueAccountsSheet21"
+      }
+    }
+  ]
+}

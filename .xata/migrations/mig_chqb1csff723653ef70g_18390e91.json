@@ -1,0 +1,14 @@
+{
+  "id": "mig_chqb1csff723653ef70g",
+  "parentID": "mig_chqb155ol0c0r24u9cig",
+  "checksum": "1:18390e91db5519abe60aed47f86746bf5ed8c94b73f3ed833b5498c800791909",
+  "operations": [
+    {
+      "renameColumn": {
+        "newName": "username",
+        "oldName": "user",
+        "table": "leagueAccountsSheet21"
+      }
+    }
+  ]
+}

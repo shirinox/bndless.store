@@ -1,0 +1,13 @@
+{
+  "id": "mig_chniv0shu5iailsd4egg",
+  "parentID": "mig_chniuvol1i64ben18s60",
+  "checksum": "1:26cd4a91401d743dd3f9a72544bde3e023b63a4b03849045d51d5496a6e984e5",
+  "operations": [
+    {
+      "removeColumn": {
+        "column": "5",
+        "table": "accounts"
+      }
+    }
+  ]
+}

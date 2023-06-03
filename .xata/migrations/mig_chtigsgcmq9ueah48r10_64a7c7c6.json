@@ -1,0 +1,19 @@
+{
+  "id": "mig_chtigsgcmq9ueah48r10",
+  "parentID": "mig_chtign0cmq9ueah48qb0",
+  "checksum": "1:64a7c7c6ff3850a500a40e1485a0f73e0e5e624f930b205638c9b0f0bbe453b6",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "acc",
+          "type": "link",
+          "link": {
+            "table": "accounts"
+          }
+        },
+        "table": "sold"
+      }
+    }
+  ]
+}

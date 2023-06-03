@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Boata-Andrei-s-workspace-8lhv3q.eu-west-1.xata.sh/db/boundless",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}

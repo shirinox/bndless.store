@@ -1,0 +1,12 @@
+{
+  "id": "mig_chtig3gcmq9ueah48q5g",
+  "parentID": "mig_chtiftgcmq9ueah48q4g",
+  "checksum": "1:544fe68c25cff3e4df0d37e0a5a64630ec72f5d1ffc27f8cda90898eb58fed17",
+  "operations": [
+    {
+      "removeTable": {
+        "table": "sold"
+      }
+    }
+  ]
+}

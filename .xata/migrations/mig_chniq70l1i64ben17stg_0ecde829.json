@@ -1,0 +1,16 @@
+{
+  "id": "mig_chniq70l1i64ben17stg",
+  "parentID": "mig_chniq20l1i64ben17sr0",
+  "checksum": "1:0ecde829f8899b218b5c44b2be194568589a7428891717e3a625e216f3c4cbd9",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "region",
+          "type": "string"
+        },
+        "table": "accounts"
+      }
+    }
+  ]
+}

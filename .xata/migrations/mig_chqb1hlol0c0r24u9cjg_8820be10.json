@@ -1,0 +1,13 @@
+{
+  "id": "mig_chqb1hlol0c0r24u9cjg",
+  "parentID": "mig_chqb1f4ff723653ef71g",
+  "checksum": "1:8820be108f231a3df0f14bd83a913b7a5f817ccb757665abfcb245cdf1f5c0ed",
+  "operations": [
+    {
+      "renameTable": {
+        "newName": "accounts",
+        "oldName": "leagueAccountsSheet21"
+      }
+    }
+  ]
+}

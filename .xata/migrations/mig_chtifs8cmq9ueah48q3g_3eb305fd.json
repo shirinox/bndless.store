@@ -1,0 +1,16 @@
+{
+  "id": "mig_chtifs8cmq9ueah48q3g",
+  "parentID": "mig_chtifpocmq9ueah48q2g",
+  "checksum": "1:3eb305fde879885b2b5281ae70a250d7e129cee1e15ab82553c7cdaeb5a379ee",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "skins",
+          "type": "string"
+        },
+        "table": "sold"
+      }
+    }
+  ]
+}

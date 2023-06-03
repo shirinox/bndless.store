@@ -1,0 +1,12 @@
+{
+  "id": "mig_chtig5gcmq9ueah48q70",
+  "parentID": "mig_chtig3gcmq9ueah48q5g",
+  "checksum": "1:aadf90f5bcd4af3b730d055277daacc8da054c8f28dc07e0c5ad6631067a984f",
+  "operations": [
+    {
+      "addTable": {
+        "table": "sold"
+      }
+    }
+  ]
+}

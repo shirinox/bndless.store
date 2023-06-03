@@ -1,0 +1,16 @@
+{
+  "id": "mig_chnipsol1i64ben17s0g",
+  "parentID": "mig_chnipool1i64ben17rvg",
+  "checksum": "1:b206d27c39fb9bb11fbc3948d76a820f8b06aaac2f24e0e050e84e11933d66f5",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "blue_essence",
+          "type": "string"
+        },
+        "table": "accounts"
+      }
+    }
+  ]
+}

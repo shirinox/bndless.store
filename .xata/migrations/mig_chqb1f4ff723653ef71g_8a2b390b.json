@@ -1,0 +1,12 @@
+{
+  "id": "mig_chqb1f4ff723653ef71g",
+  "parentID": "mig_chqb1csff723653ef70g",
+  "checksum": "1:8a2b390bd4238ccb9eb3c331057ec3ec5a064d1f45ecfea36d9ec372dc339cff",
+  "operations": [
+    {
+      "removeTable": {
+        "table": "accounts"
+      }
+    }
+  ]
+}
