@@ -1,4 +1,5 @@
 import AccountsGrid from '@/components/AccountsGrid';
+import AnimateFadeDown from '@/components/AnimateFadeDown';
 import Navigation from '@/components/Navigation';
 import { getXataClient } from '@/xata';
 
