@@ -9,7 +9,7 @@ export default function Home() {
 				<h1 className='text-3xl md:text-5xl font-bold'>Cheap League Accounts</h1>
 				<h1 className='text-3xl md:text-5xl font-bold text-red-500'>Lowest ban-rate on the market</h1>
 				<p className='text-lg mt-2'>
-					Don't take <strong>our word</strong> for it, see it for yourself
+					Don&quot;t take <strong>our word</strong> for it, see it for yourself
 					<br /> by joining our community on Discord.
 				</p>
 			</AnimateFadeDown>
@@ -42,7 +42,7 @@ export default function Home() {
 							<h3 className='text-lg font-bold'>Affordable Prices</h3>
 							<p className='text-sm'>
 								We believe that everyone should have access to high-quality League of Legends accounts
-								without breaking the bank. That's why we offer our accounts at competitive and
+								without breaking the bank. That&quot;s why we offer our accounts at competitive and
 								affordable prices.
 							</p>
 						</div>
@@ -50,8 +50,8 @@ export default function Home() {
 							<NoSymbolIcon className='w-6 h-6 mb-2 mx-auto' />
 							<h3 className='text-lg font-bold'>0% ban-rate</h3>
 							<p className='text-sm'>
-								Your account's safety is our top priority. We go above and beyond to ensure that all our
-								accounts have a flawless ban-rate history.
+								Your account&quot;s safety is our top priority. We go above and beyond to ensure that
+								all our accounts have a flawless ban-rate history.
 							</p>
 						</div>
 						<div className='gap-2'>
