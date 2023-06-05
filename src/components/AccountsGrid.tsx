@@ -6,7 +6,7 @@ import AccountsButton from '@/components/AccountsButton';
 import { useState } from 'react';
 import AccountsSort from './AccountsSort';
 import { calculatePrice, getSkinArray } from '@/utils/accounts';
-import AnimateFadeDown from './AnimateFadeDown';
+import AnimateFade from './AnimateFade';
 
 type Props = {
 	accounts: Accounts[];
@@ -24,7 +24,7 @@ const AccountsGrid = ({ accounts }: Props) => {
 					const skinArray = getSkinArray(account);
 					const productPrice = Number(calculatePrice(skinArray!).toFixed(2));
 					return (
-						<AnimateFadeDown time={0.5 + i / 10}>
+						<AnimateFade key={account.id} time={0.5 + i / 10}>
 							<div className='flex flex-col bg-neutral-950 text-white p-4 h-full rounded'>
 								<div className='flex gap-2 items-center 	mb-16'>
 									<span className='font-bold text-xl'>{account.region}</span>
@@ -41,7 +41,7 @@ const AccountsGrid = ({ accounts }: Props) => {
 								</div>
 							</div>
 							<AccountsButton account={account} />
-						</AnimateFadeDown>
+						</AnimateFade>
 					);
 				})}
 			</div>
