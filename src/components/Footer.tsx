@@ -16,12 +16,12 @@ const Footer = () => {
 				<div className='flex gap-2 justify-center md:justify-normal'>
 					<div className='w-fit'>
 						<Link href='https://discord.gg/R8NGA2pEE6' target='_blank' rel='noreferrer'>
-							<FontAwesomeIcon className='w-fit h-6' icon={faDiscord} />
+							<FontAwesomeIcon className='w-6 h-6' icon={faDiscord} />
 						</Link>
 					</div>
 					<div className='w-fit'>
 						<Link href='mailto:boundlessseller@gmail.com' target='_blank' rel='noreferrer'>
-							<EnvelopeIcon className='w-fit h-6' />
+							<EnvelopeIcon className='w-6 h-6' />
 						</Link>
 					</div>
 				</div>
