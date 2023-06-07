@@ -24,7 +24,7 @@ export const calculatePrice = (skins: string[]) => {
 			.reduce((a, b) => a * b, 1)
 			.toFixed(2)
 	);
-	const finalPrice = priceMultiplier * 2;
+	const finalPrice = priceMultiplier * 1.5;
 	return finalPrice;
 };
 
