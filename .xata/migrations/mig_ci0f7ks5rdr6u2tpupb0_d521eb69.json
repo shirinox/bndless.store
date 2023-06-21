@@ -1,0 +1,16 @@
+{
+  "id": "mig_ci0f7ks5rdr6u2tpupb0",
+  "parentID": "mig_ci0f7c45rdr6u2tpupa0",
+  "checksum": "1:d521eb6913fcd14d862597d2f58aa3aa8f8f8d5a52bbe964829acbf74392f85d",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "price",
+          "type": "float"
+        },
+        "table": "account_defaults"
+      }
+    }
+  ]
+}
